@@ -65,4 +65,8 @@ public class StudentService {
          */
         studentRepository.save(studentEntity);
     }
+
+    public void deleteById(Long id) {
+        studentRepository.deleteById(id);
+    }
 }
